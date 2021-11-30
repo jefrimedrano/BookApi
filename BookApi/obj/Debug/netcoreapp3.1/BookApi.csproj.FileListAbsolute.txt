@@ -24,4 +24,3 @@ C:\proyectos\BookApi\BookApi\bin\Debug\netcoreapp3.1\BookApi.Entity.dll
 C:\proyectos\BookApi\BookApi\bin\Debug\netcoreapp3.1\BookApi.Services.dll
 C:\proyectos\BookApi\BookApi\bin\Debug\netcoreapp3.1\BookApi.Services.pdb
 C:\proyectos\BookApi\BookApi\bin\Debug\netcoreapp3.1\BookApi.Entity.pdb
-C:\proyectos\BookApi\BookApi\obj\Debug\netcoreapp3.1\BookApi.csproj.CopyComplete

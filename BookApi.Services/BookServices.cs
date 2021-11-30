@@ -114,5 +114,48 @@ namespace BookApi.Services
 
 
 		#endregion
+
+		#region Create
+		public async Task<ResultModel> Create(Book book)
+		{
+			try
+			{
+				HttpClient client = ClientRequest();
+
+				var request = JsonConvert.SerializeObject(book);
+				var content = new StringContent(request, Encoding.UTF8, "application/json");
+				var url = "/api/v1/Books";
+				var response = await client.PostAsync(url, content);
+
+				if (!response.IsSuccessStatusCode)
+				{
+					return new ResultModel
+					{
+						Success = false,
+						Messages = response.ReasonPhrase,
+					};
+				}
+
+				var result = await response.Content.ReadAsStringAsync();
+				var data = JsonConvert.DeserializeObject<Book>(result);
+
+				return new ResultModel
+				{
+					Success = true,
+					Messages = response.ReasonPhrase,
+					Data = data,
+				};
+			}
+			catch (Exception ex)
+			{
+
+				return new ResultModel
+				{
+					Success = false,
+					Messages = ex.Message,
+				};
+			}
+		}
+		#endregion
 	}
 }
