@@ -64,5 +64,28 @@ namespace BookApi.Controllers
             return BadRequest();
         }
 
+        [Route("V1/Books")]
+        [HttpPost]
+        public async Task<ActionResult> Books(Book book)
+        {
+             
+            ResultModel result = new ResultModel();
+            Book books = new Book();
+            result = await bookServices.Create(book);
+
+            if (result.Success)
+            {
+                books = (Book)result.Data;
+                return Ok(books);
+            }
+
+            if (result.Messages == "NotFound")
+            {
+                return NotFound();
+            }
+
+            return BadRequest();
+        }
+
     }
 }
