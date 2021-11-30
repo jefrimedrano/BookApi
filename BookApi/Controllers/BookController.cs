@@ -109,5 +109,26 @@ namespace BookApi.Controllers
             return BadRequest();
         }
 
+        [Route("V1/Books/{id}")]
+        [HttpDelete]
+        public async Task<ActionResult> Delete(int id)
+        {
+            ResultModel result = new ResultModel();
+            Book books = new Book();
+            result = await bookServices.Delete(id);
+
+            if (result.Success)
+            {
+                return Ok();
+            }
+
+            if (result.Messages == "NotFound")
+            {
+                return NotFound();
+            }
+
+            return BadRequest();
+        }
+
     }
 }

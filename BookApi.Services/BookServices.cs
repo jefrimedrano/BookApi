@@ -200,5 +200,45 @@ namespace BookApi.Services
 			}
 		}
 		#endregion
+
+
+		public async Task<ResultModel> Delete(int Id)
+		{
+			try
+			{
+				var url = "/api/v1/Books/" + Id.ToString();
+
+				HttpClient client = ClientRequest();
+				HttpResponseMessage response = await client.DeleteAsync(url);
+
+				if (!response.IsSuccessStatusCode)
+				{
+					return new ResultModel
+					{
+						Success = false,
+						Messages = response.ReasonPhrase
+					};
+				}
+
+				
+
+				return new ResultModel
+				{
+					Success = true,
+					Messages = response.ReasonPhrase,
+					Data = null,
+				};
+			}
+			catch (Exception ex)
+			{
+				return new ResultModel
+				{
+					Success = false,
+					Messages = ex.Message,
+				};
+			}
+		}
+
+
 	}
 }
