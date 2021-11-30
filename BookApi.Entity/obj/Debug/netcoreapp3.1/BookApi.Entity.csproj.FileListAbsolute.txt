@@ -1,0 +1,10 @@
+C:\proyectos\BookApi\BookApi.Entity\bin\Debug\netcoreapp3.1\BookApi.Entity.deps.json
+C:\proyectos\BookApi\BookApi.Entity\bin\Debug\netcoreapp3.1\BookApi.Entity.dll
+C:\proyectos\BookApi\BookApi.Entity\bin\Debug\netcoreapp3.1\BookApi.Entity.pdb
+C:\proyectos\BookApi\BookApi.Entity\obj\Debug\netcoreapp3.1\BookApi.Entity.csproj.AssemblyReference.cache
+C:\proyectos\BookApi\BookApi.Entity\obj\Debug\netcoreapp3.1\BookApi.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\proyectos\BookApi\BookApi.Entity\obj\Debug\netcoreapp3.1\BookApi.Entity.AssemblyInfoInputs.cache
+C:\proyectos\BookApi\BookApi.Entity\obj\Debug\netcoreapp3.1\BookApi.Entity.AssemblyInfo.cs
+C:\proyectos\BookApi\BookApi.Entity\obj\Debug\netcoreapp3.1\BookApi.Entity.csproj.CoreCompileInputs.cache
+C:\proyectos\BookApi\BookApi.Entity\obj\Debug\netcoreapp3.1\BookApi.Entity.dll
+C:\proyectos\BookApi\BookApi.Entity\obj\Debug\netcoreapp3.1\BookApi.Entity.pdb
