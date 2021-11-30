@@ -27,7 +27,7 @@ namespace BookApi.Services
 
 		#endregion
 
-		#region GET
+		#region GetAll
 
 		public async Task<ResultModel> GetAll()
 		{
@@ -67,7 +67,51 @@ namespace BookApi.Services
 			}
 		}
 
-		
+
+
+		#endregion
+
+		#region GetById
+
+		public async Task<ResultModel> GetById(int id)
+		{
+			try
+			{
+				var url = "/api/v1/Books/" + id.ToString();
+
+				HttpClient client = ClientRequest();
+				HttpResponseMessage response = await client.GetAsync(url);
+
+				if (!response.IsSuccessStatusCode)
+				{
+					return new ResultModel
+					{
+						Success = false,
+						Messages = response.StatusCode.ToString(),
+					};
+				}
+
+				var result = await response.Content.ReadAsStringAsync();
+				var data = JsonConvert.DeserializeObject<Book>(result);
+
+				return new ResultModel
+				{
+					Success = true,
+					Messages = "OK",
+					Data = data
+				};
+			}
+			catch (Exception ex)
+			{
+				return new ResultModel
+				{
+					Success = false,
+					Messages = ex.Message,
+				};
+			}
+		}
+
+
 
 		#endregion
 	}
