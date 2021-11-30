@@ -19,3 +19,9 @@ C:\proyectos\BookApi\BookApi\obj\Debug\netcoreapp3.1\BookApi.RazorTargetAssembly
 C:\proyectos\BookApi\BookApi\obj\Debug\netcoreapp3.1\BookApi.dll
 C:\proyectos\BookApi\BookApi\obj\Debug\netcoreapp3.1\BookApi.pdb
 C:\proyectos\BookApi\BookApi\obj\Debug\netcoreapp3.1\BookApi.genruntimeconfig.cache
+C:\proyectos\BookApi\BookApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\proyectos\BookApi\BookApi\bin\Debug\netcoreapp3.1\BookApi.Entity.dll
+C:\proyectos\BookApi\BookApi\bin\Debug\netcoreapp3.1\BookApi.Services.dll
+C:\proyectos\BookApi\BookApi\bin\Debug\netcoreapp3.1\BookApi.Services.pdb
+C:\proyectos\BookApi\BookApi\bin\Debug\netcoreapp3.1\BookApi.Entity.pdb
+C:\proyectos\BookApi\BookApi\obj\Debug\netcoreapp3.1\BookApi.csproj.CopyComplete

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "1U2hS3x/YSTn2dbVayd/62QIh/21EBkje2kHNRKURZmNsKWKUFQLsa8hS6nYQGfEMzRdkpqKRDtQDiebp5p2ag==",
+  "dgSpecHash": "kSXypfeezsHb7ofEBn1SB59uEBr8+IvmiawdF6JuLjVS6RAkDvwscw/QlfW4jXTusqY+gIdUuqjdfru9yPbiZg==",
   "success": true,
   "projectFilePath": "C:\\proyectos\\BookApi\\BookApi\\BookApi.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\D20B6427\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

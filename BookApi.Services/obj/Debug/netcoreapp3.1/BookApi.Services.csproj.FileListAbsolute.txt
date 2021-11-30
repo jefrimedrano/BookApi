@@ -8,3 +8,6 @@ C:\proyectos\BookApi\BookApi.Services\obj\Debug\netcoreapp3.1\BookApi.Services.A
 C:\proyectos\BookApi\BookApi.Services\obj\Debug\netcoreapp3.1\BookApi.Services.csproj.CoreCompileInputs.cache
 C:\proyectos\BookApi\BookApi.Services\obj\Debug\netcoreapp3.1\BookApi.Services.dll
 C:\proyectos\BookApi\BookApi.Services\obj\Debug\netcoreapp3.1\BookApi.Services.pdb
+C:\proyectos\BookApi\BookApi.Services\bin\Debug\netcoreapp3.1\BookApi.Entity.dll
+C:\proyectos\BookApi\BookApi.Services\bin\Debug\netcoreapp3.1\BookApi.Entity.pdb
+C:\proyectos\BookApi\BookApi.Services\obj\Debug\netcoreapp3.1\BookApi.Services.csproj.CopyComplete
